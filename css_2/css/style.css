@@ -1,0 +1,82 @@
+@import url(header.css);
+@import url(intro.css);
+@import url(skills.css);
+@import url(card.css);
+@import url(about.css);
+@import url(pricing.css);
+@import url(contact.css);
+
+.page {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  max-width: 1340px;
+  font-family: Poppins, sans-serif;
+  width: 100%;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+
+.button-white {
+  border-radius: 5px;
+  border: 2px solid #263238;
+  padding: 17px 57px;
+  background-color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-white:hover {
+  background-color: #263238;
+  color: #fff;
+}
+
+.button-black {
+  border-radius: 15px;
+  border: 2px solid #263238;
+  padding: 31px 117px;
+  background-color: #263238;
+  font-size: 36px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 395;
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 35px;
+}
+
+.button-black:hover {
+  background-color: #fff;
+  color: #263238;
+}
+
+
+.content__intro {
+  margin-top: 60px;
+}
+
+.image {
+  flex-shrink: 0;
+  float: right;
+}
+
+.light-bulb {
+  display: inline-block;
+  width: 115px;
+  height: 115px;
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 140px;
+}
+
+
+

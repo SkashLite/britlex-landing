@@ -1,0 +1,31 @@
+.intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro__content {
+  position: relative;
+}
+
+.intro__title {
+  color: #000;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  display: flex;
+  max-width: 390px;
+  width: 100%;
+}
+
+.intro__text {
+  color: #8f95a5;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 530px;
+  width: 100%;
+  margin-top: 40px;
+  text-align: left;
+}
