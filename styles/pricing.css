@@ -1,5 +1,5 @@
 .pricing__title {
-  color: #000;
+  color: black;
   font-size: 48px;
   font-weight: 600;
   line-height: 80px;
@@ -32,7 +32,7 @@
 }
 
 .pricing__card_title {
-  color: var(--color_black);
+  color: var(--color_main);
   font-size: 30px;
   font-weight: 600;
   line-height: 48px;
@@ -57,7 +57,7 @@
 }
 
 .money {
-  color: var(--color_black);
+  color: var(--color_main);
   font-size: 30px;
   font-weight: 400;
 }

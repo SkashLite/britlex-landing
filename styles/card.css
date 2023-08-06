@@ -1,5 +1,5 @@
 .skills__title {
-  color: #000;
+  color: black;
   font-size: 48px;
   font-weight: 600;
   line-height: 80px;
@@ -92,10 +92,10 @@
   width: 230px;
   height: 60px;
   border-radius: 5px;
-  border: 2px solid var(--color_black);
-  background-color: var(--color_black);
+  border: 2px solid var(--color_main);
+  background-color: var(--color_main);
   font-size: 20px;
-  color: var(--color_white);
+  color: white;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -104,12 +104,12 @@
 }
 
 .card__button:hover {
-  background-color: var(--color_white);
-  color: var(--color_black);
+  background-color: white;
+  color: var(--color_main);
 }
 
 .card__title {
-  color: var(--color_black);
+  color: var(--color_main);
   font-size: 30px;
   font-weight: 600;
   line-height: 80px;
