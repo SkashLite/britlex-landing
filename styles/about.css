@@ -13,7 +13,6 @@
 .about_us {
   color: #000;
   font-size: 48px;
-  font-style: normal;
   font-weight: 600;
   line-height: 80px;
   margin-bottom: 0;
@@ -22,9 +21,7 @@
 .about_us__intro {
   color: #8f95a5;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   margin-bottom: 0;
 }
 
@@ -46,7 +43,6 @@
 .info__number {
   color: #2a3246;
   font-size: 48px;
-  font-style: normal;
   font-weight: 600;
   line-height: 80px;
   margin-bottom: 0;
@@ -55,8 +51,6 @@
 .info__title {
   color: #8f95a5;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   margin: 0;
 }

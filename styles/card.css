@@ -1,11 +1,16 @@
 .skills__title {
   color: #000;
   font-size: 48px;
-  font-style: normal;
   font-weight: 600;
   line-height: 80px;
   text-align: center;
   padding: 55px;
+}
+
+.skills__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .card {
@@ -87,13 +92,11 @@
   width: 230px;
   height: 60px;
   border-radius: 5px;
-  border: 2px solid #263238;
-  background-color: #263238;
+  border: 2px solid var(--color_black);
+  background-color: var(--color_black);
   font-size: 20px;
-  color: #fff;
-  font-style: normal;
+  color: var(--color_white);
   font-weight: 500;
-  line-height: normal;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   margin-left: 18px;
@@ -101,14 +104,13 @@
 }
 
 .card__button:hover {
-  background-color: #fff;
-  color: #263238;
+  background-color: var(--color_white);
+  color: var(--color_black);
 }
 
 .card__title {
-  color: #263238;
+  color: var(--color_black);
   font-size: 30px;
-  font-style: normal;
   font-weight: 600;
   line-height: 80px;
   padding-left: 20px;
@@ -118,9 +120,7 @@
 .card__paragraph {
   color: #8f95a5;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0;

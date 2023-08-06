@@ -1,7 +1,6 @@
 .pricing__title {
   color: #000;
   font-size: 48px;
-  font-style: normal;
   font-weight: 600;
   line-height: 80px;
   text-align: center;
@@ -33,9 +32,8 @@
 }
 
 .pricing__card_title {
-  color: #263238;
+  color: var(--color_black);
   font-size: 30px;
-  font-style: normal;
   font-weight: 600;
   line-height: 48px;
   margin-bottom: 0;
@@ -44,9 +42,7 @@
 .pricing__card_text {
   color: #8f95a5;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .pricing__button {
@@ -61,17 +57,13 @@
 }
 
 .money {
-  color: #263238;
+  color: var(--color_black);
   font-size: 30px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .description {
   color: #546269;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }

@@ -5,6 +5,12 @@
 @import url(about.css);
 @import url(pricing.css);
 @import url(contact.css);
+@import url(footer.css);
+
+:root {
+  --color_black: #263238;
+  --color_white: #fff;
+}
 
 .page {
   display: flex;
@@ -22,29 +28,27 @@
 
 .button-white {
   border-radius: 5px;
-  border: 2px solid #263238;
+  border: 2px solid var(--color_black);
   padding: 17px 57px;
-  background-color: #fff;
+  background-color: var(--color_white);
   font-size: 24px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
 .button-white:hover {
-  background-color: #263238;
-  color: #fff;
+  background-color: var(--color_black);
+  color: var(--color_white);
 }
 
 .button-black {
   border-radius: 15px;
-  border: 2px solid #263238;
+  border: 2px solid var(--color_black);
   padding: 31px 117px;
-  background-color: #263238;
+  background-color: var(--color_black);
   font-size: 36px;
-  color: #fff;
+  color: var(--color_white);
   font-style: normal;
   font-weight: 395;
   line-height: normal;
@@ -54,8 +58,8 @@
 }
 
 .button-black:hover {
-  background-color: #fff;
-  color: #263238;
+  background-color: var(--color_white);
+  color: var(--color_black);
 }
 
 
