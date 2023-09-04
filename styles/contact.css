@@ -5,13 +5,9 @@
   padding-top: 250px;
 }
 
-.contacts__info {
-}
-
 .contacts__title {
-  color: #000;
+  color: black;
   font-size: 48px;
-  font-style: normal;
   font-weight: 600;
   line-height: 80px;
 }
@@ -19,29 +15,29 @@
 .contacts__subtitle {
   color: #8f95a5;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .contacts__input {
   border-radius: 10px;
   border: 1px solid #8f95a5;
-  width: 450px;
-  height: 80px;
+  width: 400px;
+  height: 78px;
+  color: #8f95a5;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 45px;
 }
 
 .contacts__button {
   border-radius: 10px;
-  background: #263238;
+  background: var(--color_main);
   width: 264px;
   height: 80px;
 }
 
 .contacts__button_text {
-  color: #fff;
+  color: white;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }

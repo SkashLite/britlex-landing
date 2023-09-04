@@ -1,0 +1,14 @@
+@import url(header.css);
+@import url(intro.css);
+@import url(skills.css);
+@import url(card.css);
+@import url(about.css);
+@import url(pricing.css);
+@import url(contact.css);
+@import url(footer.css);
+@import url(wrapper.css);
+
+:root {
+  --color_main: #263238;
+}
+
